@@ -417,7 +417,7 @@ ribi::About ribi::SitemapGeneratorMenuDialog::GetAbout() const noexcept
     "Richel Bilderbeek",
     "RichelbilderbeekNlSitemapGenerator",
     "generates the richelbilderbeek.nl sitemap",
-    "the 15th of December 2012",
+    "November 21st of 2015",
     "2010-2015",
     "http://www.richelbilderbeek.nl/ToolRichelbilderbeekNlSitemapGenerator.htm",
     GetVersion(),
@@ -500,18 +500,9 @@ std::vector<std::string> ribi::SitemapGeneratorMenuDialog::GetHtmlFilesInFolder(
   return w;
 }
 
-boost::shared_ptr<const ribi::Program> ribi::SitemapGeneratorMenuDialog::GetProgram() const noexcept
-{
-  const boost::shared_ptr<const Program> p {
-    new ProgramRichelBilderbeekNlSitemapGenerator
-  };
-  assert(p);
-  return p;
-}
-
 std::string ribi::SitemapGeneratorMenuDialog::GetVersion() const noexcept
 {
-  return "1.3";
+  return "2.0";
 }
 
 std::vector<std::string> ribi::SitemapGeneratorMenuDialog::GetVersionHistory() const noexcept
@@ -520,7 +511,8 @@ std::vector<std::string> ribi::SitemapGeneratorMenuDialog::GetVersionHistory() c
     "2010-08-08: version 1.0: initial version",
     "2011-09-15: version 1.1: improved code",
     "2012-06-20: version 1.2: improved code",
-    "2012-12-15: version 1.3: made global functions static member functions, use of QtHideAndShowDialog, added some graphics to menu"
+    "2012-12-15: version 1.3: made global functions static member functions, use of QtHideAndShowDialog, added some graphics to menu",
+    "2015-11-21: version 2.0: moved to own GitHub"
   };
 }
 

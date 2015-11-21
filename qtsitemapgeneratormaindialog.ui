@@ -19,7 +19,7 @@
    <string>RichelbilderbeekNlSitemapGenerator</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolRichelbilderbeekNlSitemapGenerator.qrc">
+   <iconset resource="RichelbilderbeekNlSitemapGenerator.qrc">
     <normaloff>:/images/PicSitemap14x14.png</normaloff>:/images/PicSitemap14x14.png</iconset>
   </property>
   <property name="styleSheet">
@@ -80,7 +80,7 @@ QLineEdit { font: 16px, &quot;Courier&quot; }
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="ToolRichelbilderbeekNlSitemapGenerator.qrc"/>
+  <include location="RichelbilderbeekNlSitemapGenerator.qrc"/>
  </resources>
  <connections/>
 </ui>

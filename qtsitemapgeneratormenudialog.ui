@@ -20,7 +20,7 @@
    <string>SitemapGenerator</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolRichelbilderbeekNlSitemapGenerator.qrc">
+   <iconset resource="RichelbilderbeekNlSitemapGenerator.qrc">
     <normaloff>:/images/PicSitemap14x14.png</normaloff>:/images/PicSitemap14x14.png</iconset>
   </property>
   <property name="styleSheet">
@@ -56,7 +56,7 @@ QPushButton { font: 32px, &quot;Courier&quot; }</string>
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="ToolRichelbilderbeekNlSitemapGenerator.qrc">:/images/PicR14x14.png</pixmap>
+         <pixmap resource="RichelbilderbeekNlSitemapGenerator.qrc">:/images/PicR14x14.png</pixmap>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -75,7 +75,7 @@ QPushButton { font: 32px, &quot;Courier&quot; }</string>
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="ToolRichelbilderbeekNlSitemapGenerator.qrc">:/images/PicTo14x14.png</pixmap>
+         <pixmap resource="RichelbilderbeekNlSitemapGenerator.qrc">:/images/PicTo14x14.png</pixmap>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -88,7 +88,7 @@ QPushButton { font: 32px, &quot;Courier&quot; }</string>
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="ToolRichelbilderbeekNlSitemapGenerator.qrc">:/images/PicSitemap14x14.png</pixmap>
+         <pixmap resource="RichelbilderbeekNlSitemapGenerator.qrc">:/images/PicSitemap14x14.png</pixmap>
         </property>
        </widget>
       </item>
@@ -119,7 +119,7 @@ QPushButton { font: 32px, &quot;Courier&quot; }</string>
   </layout>
  </widget>
  <resources>
-  <include location="ToolRichelbilderbeekNlSitemapGenerator.qrc"/>
+  <include location="RichelbilderbeekNlSitemapGenerator.qrc"/>
  </resources>
  <connections/>
 </ui>
